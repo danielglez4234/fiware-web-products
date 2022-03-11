@@ -19,7 +19,6 @@ import iot_logo from './commons/img/iot_logo.svg'; // compress fix https://jakea
 function App() {
   const notistackRef = React.createRef();
 
-  
   /*
    * handle close information messages for customHook PopUpMessage
    */
