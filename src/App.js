@@ -41,7 +41,7 @@ function App() {
 
         <Router>
           <Routes>
-            <Route exact path="/" element={<Navigate to="/home" />} /> {/*blank path redirects to -> /WebReport*/}
+            <Route exact path="/" element={<Navigate to="/home" />} /> {/*blank path redirects to -> /home*/}
             <Route exact path="/home" element={
                 <MainPage />
               } />
