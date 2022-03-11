@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #eff3f6;
+  font-family: "SemiBold" !important;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo{
+  position: fixed;
+  bottom:0px;
+  right: 0px;
+  height: 500px;
+  opacity: 0.5;
+  z-index: -11;
+}
+
+.container-main-page{
+  display: flex;
+  flex-grow: 1;
+}
+.menu-divider{
+  margin-bottom:10px !important;
+}
+
+
+
+@font-face {
+  font-family: "Cousine-Bold";
+  src: url("../fonts/Cousine/Cousine-Bold.ttf");
+}
+@font-face {
+  font-family: "Cousine-BoldItalic";
+  src: url("../fonts/Cousine/Cousine-BoldItalic.ttf");
+}
+@font-face {
+  font-family: "Cousine-Italic";
+  src: url("../fonts/Cousine/Cousine-Italic.ttf");
+}
+@font-face {
+  font-family: "Cousine-Regular";
+  src: url("../fonts/Cousine/Cousine-Regular.ttf");
+}
+
