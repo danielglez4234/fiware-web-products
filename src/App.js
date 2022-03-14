@@ -37,24 +37,23 @@ function App() {
       )}
     >
       <div className="container">
-        <Navbar />
-
         <Router>
-          <Routes>
-            <Route exact path="/" element={<Navigate to="/home" />} /> {/*blank path redirects to -> /home*/}
-            <Route exact path="/home" element={
-                <MainPage />
-              } />
-            <Route exact path="/entities" element={
-                <EntitieMain />
-              } />
-            <Route exact path="/rules" element={
-                <RulesMain />
-              } />
-            <Route path='*' element={<PageNotFound />} /> {/*only appears when no route matches*/}
-          </Routes>
-        </Router>
-        <img src={iot_logo} alt="logo_instalación_conectada" className="logo" /> 
+          <Navbar />
+            <Routes>
+              <Route exact path="/" element={<Navigate to="/home" />} /> {/*blank path redirects to -> /home*/}
+              <Route exact path="/home" element={
+                  <MainPage />
+                } />
+              <Route exact path="/entities" element={
+                  <EntitieMain />
+                } />
+              <Route exact path="/rules" element={
+                  <RulesMain />
+                } />
+              <Route path='*' element={<PageNotFound />} /> {/*only appears when no route matches*/}
+            </Routes>
+          </Router>
+          <img src={iot_logo} alt="logo_instalación_conectada" className="iot_logo" /> 
     </div>
     </SnackbarProvider>
   );

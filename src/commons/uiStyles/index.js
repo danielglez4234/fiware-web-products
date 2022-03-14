@@ -60,8 +60,9 @@ import Tooltip, { TooltipProps, tooltipClasses }        from '@mui/material/Tool
     <Tooltip {...props} classes={{ popper: className }} />
   ))(({ theme }) => ({
     [`& .${tooltipClasses.tooltip}`]: {
-      backgroundColor: '#49525e',
-      color: 'white',
+      backgroundColor: 'white',
+      color: '#333',
+      fontFamily: "Cousine-Bold",
       boxShadow: theme.shadows[1],
       fontSize: 11,
     },
