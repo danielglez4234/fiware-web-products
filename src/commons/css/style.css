@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #eff3f6;
+  font-family: "SemiBold" !important;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+
+/*---------------------------------------*/
+/* Side Nav bar */
+/*---------------------------------------*/
+
+.iot_logo{
+  position: fixed;
+  bottom:0px;
+  right: 50%;
+  margin-right: -500px;
+  top:50%;
+  margin-top: -340px;
+  height: 650px;
+  opacity: 0.7;
+  z-index: -11;
+}
+
+
+.sidebar{
+  background-color: #111827;
+  width: 80px;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  border-right: 3px solid white;
+  box-shadow: 2px 0px 15px grey;
+  position: fixed;
+}
+.box-gtc_logo{
+  margin: 5px 0px 5px 2px;
+}
+.gtc_logo{
+  width: 75px;
+}
+
+.menu-bar{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.menu-links{
+  list-style-type: none;
+  padding-left: 12px;
+}
+.menu-divider{
+  border:1px dashed #767171 !important;
+}
+.menu-divider-on-actions{
+  margin:5px 6px 5px -6px !important;
+  border:1px dashed #767171 !important;
+}
+
+.button-navbar-menu-icon{
+  border-radius: 4px !important;
+}
+.button-navbar-menu-icon:hover{
+  background-color: #d8d9e761 !important;
+}
+
+.navbar-menu-icon{
+  transition: linear 0.1s;
+}
+.button-navbar-menu-icon:hover > .navbar-menu-icon{
+  color: white;
+  transition: linear 0.1s;
+}
+.navbar-menu-icon{
+  color: #d8d9e7;
+}
+.menu{
+  flex-grow: 1;
+  margin-top: -18px;
+}
+
+/* .MuiTooltip-popperArrow{
+  background-color: #d8d9e7 !important;
+} */
+
+
+/*---------------------------------------*/
+/* Contaianer main page */
+/*---------------------------------------*/
+
+.container-main-page{
+  display: flex;
+  flex-grow: 1;
+  margin-left: 80px;
+  margin-right: 240px;
+}
+.menu-divider{
+  margin-bottom:10px !important;
+}
+
+.box-fiware-info{
+  width: 100%;
+  padding: 30px 80px 0px 50px;
+}
+
+.fiware-content{
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 40px;
+}
+
+.fiware-content-code{
+  background-color: rgb(0 30 60) !important;
+  width: 100%;
+  display: flex;
+  font-size: 17px !important;
+}
+.fiware-content-code-text{
+  padding: 20px;
+}
+
+.code-sniped-darkwhite{
+  color:rgb(207, 203, 203) !important;
+}
+.code-sniped-lightred{
+  color:rgb(235, 101, 141) !important;
+}
+.code-sniped-lightgreen{
+  color:rgb(82, 230, 168) !important;
+}
+.code-sniped-purple{
+  color:rgb(192, 114, 216) !important;
+}
+.code-sniped-yellow{
+  color:rgb(241, 243, 139) !important;
+}
+.code-sniped-white{
+  color:white !important;
+}
+
+.asideObject{
+  margin-left:20px;
+}
+.asideObjectInside{
+  margin-left:40px;
+}
+.asideObjectInsideDouble{
+  margin-left:60px;
+}
+
+
+/*---------------------------------------*/
+/* Scroll hoghLight */
+/*---------------------------------------*/
+.scroll-highLight-menu{
+  position: fixed !important;
+  width: 250px !important;
+  top: 30px;
+  right: 20px;
+  box-shadow: 2px 2px 5px gray;
+  border-radius: 4px !important;
+}
+
+.scroll-highLight-ItemButton{
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+
+
+/*---------------------------------------*/
+/* Scroll hoghLight */
+/*---------------------------------------*/
+.rules-container{
+  width: 100%;
+  margin-left: 80px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+@font-face {
+  font-family: "Cousine-Bold";
+  src: url("../fonts/Cousine/Cousine-Bold.ttf");
+}
+@font-face {
+  font-family: "Cousine-BoldItalic";
+  src: url("../fonts/Cousine/Cousine-BoldItalic.ttf");
+}
+@font-face {
+  font-family: "Cousine-Italic";
+  src: url("../fonts/Cousine/Cousine-Italic.ttf");
+}
+@font-face {
+  font-family: "Cousine-Regular";
+  src: url("../fonts/Cousine/Cousine-Regular.ttf");
+}
